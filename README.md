@@ -19,7 +19,7 @@ for _ in range(1000):
     time.sleep(3)
 
     base_screen = ImageGrab.grab(bbox=(0,0,1750,450))
-    base_screen.save('/Users/ipadi/screenshot/bot/base_screen.png')
+    base_screen.save('/Users/name/screenshot/bot/base_screen.png') #path to your screen
 
     img_rgb = cv2.imread("base_screen.png")
     img_gray = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2GRAY)
